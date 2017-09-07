@@ -1,0 +1,26 @@
+{
+  "context-menu": {
+    "atom-text-editor": [
+      {
+        "label": "Fold Jasmine",
+        "command": "fold-jasmine:fold"
+      }
+    ]
+  },
+  "menu": [
+    {
+      "label": "Packages",
+      "submenu": [
+        {
+          "label": "Fold Jasmine",
+          "submenu": [
+            {
+              "label": "Fold",
+              "command": "fold-jasmine:fold"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

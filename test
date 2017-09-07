@@ -1,0 +1,46 @@
+var a;
+var b;
+
+otherfunction(){
+  //this should not be folded
+}
+
+describe("dont fold this", function(){
+
+  beforeEach(inject(function(){
+    //should be folded
+  })
+
+  afterEach(function(){
+    //should be folded
+  })
+
+  it("cant fold me");
+
+  it("fold me", function(){
+    var a;
+  });
+
+  xit("fold this disabled test", function(){
+    var a;
+  });
+
+  fit("fold this focused test", function(){
+    var a;
+  });
+
+  describe("nested dont fold", function(){
+
+    it("nested cant fold me");
+
+    it("nested fold me too", function(){
+      var a;
+    });
+
+    xit("nested fold this disabled test", function(){
+      var a;
+    });
+
+  });
+
+});
