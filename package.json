@@ -1,10 +1,11 @@
 {
   "name": "fold-jasmine",
   "main": "./lib/fold-jasmine",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "Package to fold it, beforeEach and afterEach statements in Jasmine file",
   "keywords": [
-    "Jasmine", "fold"
+    "Jasmine",
+    "fold"
   ],
   "activationCommands": {
     "atom-workspace": "fold-jasmine:fold"
@@ -14,6 +15,5 @@
   "engines": {
     "atom": ">=1.0.0 <2.0.0"
   },
-  "dependencies": {
-  }
+  "dependencies": {}
 }
