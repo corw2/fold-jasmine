@@ -1,7 +1,7 @@
 {
   "name": "fold-jasmine",
   "main": "./lib/fold-jasmine",
-  "version": "0.1.0",
+  "version": "0.0.0",
   "description": "Package to fold it, beforeEach and afterEach statements in Jasmine file",
   "keywords": [
     "Jasmine", "fold"
@@ -9,7 +9,7 @@
   "activationCommands": {
     "atom-workspace": "fold-jasmine:fold"
   },
-  "repository": "https://github.com/atom/fold-jasmine",
+  "repository": "https://github.com/corw2/fold-jasmine",
   "license": "MIT",
   "engines": {
     "atom": ">=1.0.0 <2.0.0"
