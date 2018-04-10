@@ -1,7 +1,7 @@
 {
   "name": "fold-jasmine",
   "main": "./lib/fold-jasmine",
-  "version": "0.2.0",
+  "version": "0.3.0",
   "description": "Package to fold it, beforeEach and afterEach statements in Jasmine file",
   "keywords": [
     "Jasmine",
